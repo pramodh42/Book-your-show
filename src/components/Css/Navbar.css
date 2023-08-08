@@ -1,0 +1,22 @@
+
+.navbar {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    /* position: absolute;  */
+    width: 100%; 
+  
+  }
+  
+  .navbar-heading {
+    color: #ffffff; 
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  

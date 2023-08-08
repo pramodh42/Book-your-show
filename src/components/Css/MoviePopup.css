@@ -1,0 +1,85 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.8); */ 
+
+  background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background-image: radial-gradient(circle, #637da4, #00a0cc, #00c2c4, #00dd86, #a8eb12);
+  height: 450px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px; 
+
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.popup-header {
+  padding: 10px;
+  text-align: right;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+}
+
+.popup-content {
+  display: flex;
+}
+
+.left-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.movie-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-content {
+  flex: 2;
+  padding: 20px;
+  max-height: 600px;
+}
+
+.movie-summary {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.movie-inf p {
+  margin: 5px 0;
+
+}
+
+.book-button {
+  background-color: #FF3366;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #E62E5B;
+}
