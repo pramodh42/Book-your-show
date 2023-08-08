@@ -22,11 +22,11 @@ This is a simple React JS application for booking movie tickets. It uses data fr
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/movie-booking-website.git
+git clone https://github.com/pramodh42/Book-your-show.git
 
 2. Navigate to the project directory:
 
-cd movie-booking-website
+cd Book-your-show
 
 3. Install dependencies:
 
